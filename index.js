@@ -158,7 +158,16 @@ console.log(mapclass.has('608484371'));
 //1. **Ejercicio** Crea una función que dado un nombre compruebe que la guia contiene algún 
 //nombre que contenga el nombre pasado por parámetro.
 
-//************
+function logMapElements(value, key, mapclass) {
+    let name = 'david';
+
+    console.log(name === mapclass);
+}
+mapclass.forEach(logMapElements);
+// logs:
+// "m[foo] = 3"
+// "m[bar] = [object Object]"
+// "m[baz] = undefined"
 
 /*let name =  prompt('Buscar nombre en la agenda');
 
@@ -177,27 +186,34 @@ console.log(mapclass);
 
 //1. **Ejercio** Crea un array ordenado por nombre con valores { nombre, telefono } a partir de la guía.
 
-
-
-var organized = mapclass.map((elemen) => {
+/*function clear(params) {
     
-})
+}*/
+
+
+
+
+
 
 // ***** Lodash *****//
-//
+
 //1. **Ejercicio** Dado los siguientes arrays:
-//```
-//const array1 = [1,3,5,7,9,10]
-//const array2 = [2,3,4,7,8,10]
-//```
+
+/*const array1 = [1,3,5,7,9,10]
+const array2 = [2,3,4,7,8,10]
+const arra3 =_ . intersección ([ array1 ] ,  [ array2 ]);
+console.log(array3);*/
+
+
 //consigue un array intersección con valores únicos utilizando lodash.
-//
 //1. **Ejercicio**  Dado los siguientes arrays:
-//```
+
+
+
 //const array1 = [1,3,5,7,9,10]
 //const array2 = [2,3,4,7,8,10]
 //```
-//Devuelve el sumatorio de de los elementos pares.
+//Devuelve el sumatorio  de los elementos pares.
 //
 //1. **Ejercicio** Dado los objetos 
 //```

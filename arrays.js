@@ -139,120 +139,16 @@ Fruits.delete('Manzana');
 console.log(Fruits);
 
 
-// ***** Map *****//
-
-//1. **Ejercicio** Contruye una guia telefonica con los compañeros de clase. Toma como clave el
-//numero de teléfono y como valor el nombre del compañero.
-
-let mapclass = new Map([['608484371', 'david'], ['647478513', 'edison' ],
-['647478515', 'hugo'], ['647478512', 'maria'], ['647478511', 'claudia']]);
-
-
-console.log(mapclass);
-
-
-//1. **Ejercicio** Crea una función que compruebe que un número está dentro de la guía.
-
-console.log(mapclass.has('608484371'));
-
-//1. **Ejercicio** Crea una función que dado un nombre compruebe que la guia contiene algún 
-//nombre que contenga el nombre pasado por parámetro.
-
-function logMapElements(value, key, mapclass) {
-    let name = 'david';
-
-    console.log(name === mapclass);
-}
-mapclass.forEach(logMapElements);
-// logs:
-// "m[foo] = 3"
-// "m[bar] = [object Object]"
-// "m[baz] = undefined"
-
-/*let name =  prompt('Buscar nombre en la agenda');
-
-
- forEach(mapclass.has(name));
-console.log(verification);*/
-
-
-
-//1. **Ejercicio** Añade un nuevo compañero ficticio con tu número de telefono. ¿Qué pasa?
-
-mapclass.set([['608484372', '']]);
-console.log(mapclass);
-//Que se crea el nuevo compañero pero con el numero de telefono(Array1) y el valor undefined
-
-
-//1. **Ejercio** Crea un array ordenado por nombre con valores { nombre, telefono } a partir de la guía.
-
-/*function clear(params) {
-    
-}*/
 
 
 
 
 
 
-// ***** Lodash *****//
-
-//1. **Ejercicio** Dado los siguientes arrays:
-
-/*const array1 = [1,3,5,7,9,10]
-const array2 = [2,3,4,7,8,10]
-const arra3 =_ . intersección ([ array1 ] ,  [ array2 ]);
-console.log(array3);*/
-
-
-//consigue un array intersección con valores únicos utilizando lodash.
-//1. **Ejercicio**  Dado los siguientes arrays:
 
 
 
-//const array1 = [1,3,5,7,9,10]
-//const array2 = [2,3,4,7,8,10]
-//```
-//Devuelve el sumatorio  de los elementos pares.
-//
-//1. **Ejercicio** Dado los objetos 
-//```
-//const obj1 = {
-//    prop1: 'value1',
-//    prop2: 10,
-//    prop3: 'value'
-//}
-//const obj2 = {
-//    prop1: {
-//        innerprop1: 'hola'
-//    },
-//}
-//```
-//Devuelve un objeto que sean ambos mezclados de la forma que obj2 prevalezca sobre obj1.
-//
-//1. **Ejercicio** ¿qué diferencia hay en _.merge y _.assign, dado _ como el objeto que representa lodash.
-//
-//1. **Ejercicio** Dado el array `[2,5,8,10,24]` calcula su media con lodash.
-//
-//1. **Ejercicio** Dado el objeto
-//```
-//const obj1 = {
-//    prop1: 'value1',
-//    prop2: 10,
-//    prop3: 'value'
-//}
-//```
-//Devuelve los valores de sus propiedades en un array.
-//
-//1. **Ejercicio** Dado el objeto
-// ```
-// const obj1 = {
-//     prop1: 'value1',
-//     prop2: 10,
-//     prop3: 'value'
-// }
-//```
-//Crea un nuevo objeto con solo las propiedades que tengan valores string.
-//
-//1. **Ejercicio** Dado el siguiente array `[[1,2,[4,5],[5,7]], [1,3,4,5]]` consigue un array aplanado.
-//Es decir de la forma `[1,2,4,5,5,7,1,3,4,5]`
+
+
+
+

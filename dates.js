@@ -9,6 +9,8 @@
 
 const date = new Date();
 
+document.write(date);
+
 
 
 /*1. **Ejercicio** Realiza un script que pida un nombre y dos apellidos e indique el tiempo que se tardó en introducir los datos.

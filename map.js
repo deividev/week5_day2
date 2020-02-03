@@ -27,24 +27,30 @@ let name = 'maria';
 
 
 
-function search (name, mapclass) {
-    console.log(mapclass ==={name});
+function search (name, map) {
+    debugger
+    let entry = map.entries();
+    let it = entry.next();
+    while (!it.done) {
+        if (it.value[1] === name) {
+            return it.value[0];
+        }
+        it = entry.next();
+    }
+    return null;
 }
-mapclass.forEach(search);
-console.log(mapclass.has('maria'));
 
-
-
-
-
-/*let name =  prompt('Buscar nombre en la agenda');
-
-
- forEach(mapclass.has(name));
-console.log(verification);*/
-
-
-
+function search2 (name, map) {
+    debugger
+    for([key, value] of map.entries()) {
+        if (value === name) {
+            return key;
+        }
+    }
+    return null;
+}
+console.log("search", search(name ,mapclass));
+console.log("search2", search2(name ,mapclass));
 //1. **Ejercicio** Añade un nuevo compañero ficticio con tu número de telefono. ¿Qué pasa?
 
 mapclass.set([['608484372', '']]);

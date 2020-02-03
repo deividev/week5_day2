@@ -30,8 +30,8 @@ miConjunto2.add('peras');
 miConjunto2.add('limones');
 miConjunto2.add('castanas');
 console.log(miConjunto2.entries())
-const miArray2 = Array.from(miConjunto2)
-console.log('Mi array ordenado', miArray2.sort((a, b) => {
+const miArray3 = Array.from(miConjunto2)
+console.log('Mi array ordenado', miArray3.sort((a, b) => {
   /*if (a.length > b.length) {
     return 1;
   }
